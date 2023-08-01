@@ -14,3 +14,8 @@ def divide(x, y):
     if y == 0:
         raise ValueError("Cannot divide by zero!")
     return x / y
+
+
+def some_function(x, y):
+    """Just to change some code to push"""
+    print("hi")
